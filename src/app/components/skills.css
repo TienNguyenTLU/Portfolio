@@ -1,0 +1,24 @@
+.skill-block
+{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.skill-title
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color:azure;
+    margin-bottom: 20px;
+}
+.skill-list
+{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

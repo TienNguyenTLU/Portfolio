@@ -1,0 +1,18 @@
+.skill-card
+{
+    width: 120px;
+    height: 120px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+h2 
+{
+    color: #f47544;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    font-size: 14px;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+.desc
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+.h1-1 {
+    font-size: 110px;
+    font-weight: bold;
+    background: linear-gradient(to bottom,#f47544  50%, #FFFFFF 50);
+    -webkit-background-clip: text;
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-fill-color: transparent;
+    transition: ease-in-out 1s;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.desc .about
+{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+        color: darkgrey;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+.achievements 
+{
+    display: flex;;
+    gap: 50px;
+}
+.achievements li .number
+{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+.achievements li p
+{
+    font-size: 24px;
+    color: darkgrey;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+}
