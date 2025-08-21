@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 .info-block 
 {
     width: 100%;
@@ -31,4 +33,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.contact-block
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact
+{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+    justify-content: space-between;
 }

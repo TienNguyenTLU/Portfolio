@@ -12,8 +12,9 @@
 }
 .ps 
 {
+    margin-top: 50px;
+    margin-bottom: 20px;
     text-align: center;
-    padding: 70px;
     font-size: 20px;
     color: #f47544;
 }

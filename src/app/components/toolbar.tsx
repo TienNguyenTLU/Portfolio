@@ -5,10 +5,10 @@ import { VscAccount, VscCallIncoming, VscCode, VscHome } from "react-icons/vsc"
 export default function Toolbar()
 {
     const navItems = [
-        { name: "Home", href: "/" , icon: <VscHome/>},
-        { name: "About", href: "/about" ,icon: <VscAccount/>},
-        { name: "Contact", href: "/contact", icon: <VscCallIncoming/> },
-        { name: "Projects", href: "/projects", icon: <VscCode/> }
+        { name: "Home", href: "#0" , icon: <VscHome/>},
+        { name: "About", href: "#1" ,icon: <VscAccount/>},
+        { name: "Contact", href: "#3", icon: <VscCallIncoming/> },
+        { name: "Projects", href: "#2", icon: <VscCode/> }
     ]
     return (
         <nav className="toolbar">
@@ -17,8 +17,8 @@ export default function Toolbar()
                     navItems.map((item) => 
                     (
                         <li>
-                            <span>{item.icon}</span>
-                            <span className="tooltip">{item.name}</span>
+                            <a href={item.href}><span>{item.icon}</span>
+                            <span className="tooltip">{item.name}</span></a>
                         </li>
                     ))
                 }

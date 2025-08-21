@@ -1,0 +1,23 @@
+.contact-info
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+.socialnetworks
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 30px;
+    color: #f47544;
+}
+.contact-title
+{
+    font-size: 24px;
+    color: #f47544;
+    margin-bottom: 10px;
+}
