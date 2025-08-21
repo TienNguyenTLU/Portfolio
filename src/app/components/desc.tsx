@@ -1,3 +1,4 @@
+'use client';
 import './desc.css'
 export default function Desc()
 {

@@ -1,3 +1,4 @@
+"use client";
 import './bio.css'
 import Image from "next/image";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
@@ -11,19 +12,19 @@ export default function Bio()
         { name: "Email", url: "mailto:tiencp1234hd@gmail.com",icon: <IoIosMail /> }
     ];
     return (
-        <div className="bio">
-            <Image src="/logo.jpg" alt="Profile Picture" width={256} height={256} className="profile-pic"/>
-            <h1>Nguyen Minh Tien</h1>
-            <p>A Software Engineer who has developed countless innovative solutions.</p>
-            <ul className="socialList">
-                {socialLinks.map((link, index) => (
-                    <li key={index}>
-                        <a href={link.url} target="_blank" rel="noopener noreferrer">
-                            {link.icon}
-                        </a>
-                    </li>
-                ))}
-            </ul>
-        </div>
+            <div className="bio">
+                <Image src="/logo.jpg" alt="Profile Picture" width={256} height={256} className="profile-pic"/>
+                <h1>Nguyen Minh Tien</h1>
+                <p>A Software Engineer who has developed countless innovative solutions.</p>
+                <ul className="socialList">
+                    {socialLinks.map((link, index) => (
+                        <li key={index}>
+                            <a href={link.url} target="_blank" rel="noopener noreferrer">
+                                {link.icon}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
     )
 }
