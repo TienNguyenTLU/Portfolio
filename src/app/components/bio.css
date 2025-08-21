@@ -17,7 +17,7 @@
     color: black;
     font-weight: bold;
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-poppins), sans-serif;
 }
 .bio p
 {

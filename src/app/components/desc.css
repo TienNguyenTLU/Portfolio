@@ -7,20 +7,26 @@
     width: 30%;
 }
 .h1-1 {
-    font-size: 110px;
-    font-weight: bold;
-    background: linear-gradient(to bottom,#f47544  50%, #FFFFFF 50);
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase ;
+    /* Sửa cú pháp: thêm % cho stop thứ hai */
+    background-image: linear-gradient(to bottom, #f47544 50%, #ffffff 50%);
+    /* Hỗ trợ đầy đủ các engine */
     -webkit-background-clip: text;
-    font-family: 'Poppins', sans-serif;
+    background-clip: text;
+    color: transparent;            
     -webkit-text-fill-color: transparent;
-    transition: ease-in-out 1s;
+    font-family: var(--font-poppins), sans-serif;
     line-height: 1;
     margin-bottom: 10px;
+    transition: background-position 1s ease-in-out, color 1s ease-in-out;
 }
+
 .desc .about
 {
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-poppins), sans-serif;
         color: darkgrey;
     font-size: 24px;
     margin-bottom: 80px;
@@ -33,12 +39,12 @@
 .achievements li .number
 {
     font-size: 48px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-poppins), sans-serif;
 }
 .achievements li p
 {
     font-size: 24px;
     color: darkgrey;
     width: 100px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-poppins), sans-serif;
 }
