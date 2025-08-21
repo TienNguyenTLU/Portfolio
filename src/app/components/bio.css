@@ -24,13 +24,13 @@
     color: #858689;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 145px;
 }
 .socialList
 {
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 28px;
     gap: 30px;
     color: #f47544;
 }
@@ -38,4 +38,14 @@
 {
     border: #f47544 3px solid;
     border-radius: 50%;
+}
+.socialList li a
+{
+    color: #f47544;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.socialList li a:hover
+{
+    transform: scale(1.1);
 }

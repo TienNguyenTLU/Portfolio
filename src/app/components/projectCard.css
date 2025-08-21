@@ -1,0 +1,36 @@
+.project-card
+{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a1714;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.project-name
+{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #f47544;
+}
+.project-desc
+{
+    width: 60%;
+}
+.project-card:hover
+{
+    transform: scale(1.05);
+}
+.project-image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+    overflow: hidden;
+    border: #f47544 2px solid;
+}

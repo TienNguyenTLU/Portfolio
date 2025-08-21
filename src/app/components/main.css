@@ -24,3 +24,11 @@
     display: flex;
     flex-direction: row;
 }
+.projects-block
+{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
