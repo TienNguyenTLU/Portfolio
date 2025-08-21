@@ -1,5 +1,5 @@
 import './sepline.css'
-export default function SepLine({title}) {
+export default function SepLine({title} : {title: string}) {
     return (
         <div className="sep-line">
             <div></div>

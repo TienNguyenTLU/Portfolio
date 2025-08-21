@@ -1,6 +1,10 @@
 import './skillcard.css'
 import Image from "next/image"
-export default function SkillCard({item}) {
+type Skill = {
+  name: string;
+  icon: string;
+};
+export default function SkillCard({item}: {item: Skill}) {
     return (
         <div className="skill-card">
             <Image src={item.icon} alt={item.name} width={50} height={50} className="skill-icon" />

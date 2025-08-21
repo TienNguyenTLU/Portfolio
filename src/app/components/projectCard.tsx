@@ -2,7 +2,17 @@ import Image from "next/image"
 import './projectCard.css';
 import { Link } from "lucide-react";
 import { VscLinkExternal } from "react-icons/vsc";
-export default function ProjectCard({item}) {
+type Project = {
+  title: string;
+  image: string;
+  description: string;
+  link: string;
+};
+
+type Props = {
+  item: Project;
+};
+export default function ProjectCard({item} : Props) {
     return (
         <div className='project-card'>
             <div className="project-image">
