@@ -5,12 +5,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     background-color: #1a1714;
     padding: 20px;
     border-radius: 20px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    gap: 50px;
 }
 .project-name
 {
@@ -30,7 +30,7 @@
   position: relative;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 100%;
     overflow: hidden;
     border: #f47544 2px solid;
 }

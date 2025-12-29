@@ -14,7 +14,7 @@ type Props = {
 };
 export default function ProjectCard({item} : Props) {
     return (
-        <div className='project-card'>
+        <div className={`project-card ${item.link ? 'clickable' : ''}`} onClick={() => window.open(item.link, '_blank')}>
             <div className="project-image">
                 <Image 
                     src={item.image} 

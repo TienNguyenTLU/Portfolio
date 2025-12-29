@@ -16,11 +16,11 @@ export default function Info() {
           <li className="Education">
             <p>Education: <span>Software Engineer</span></p>
           </li>
-          <li className="Certifications">
-            <p>Certifications: <span>7.0 IELTS</span></p>
+          <li className="Language">
+            <p>Languages: <span>English, Vietnamese</span></p>
           </li>
-          <li className="Projects">
-            <p>Projects: <span>10+</span></p>
+          <li className="Skills">
+            <p>Skills: <span>10+</span></p>
           </li>
         </ul>
 

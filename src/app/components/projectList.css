@@ -6,6 +6,11 @@
     align-items: center;
     gap: 35px;
 }
+
+.project-card:hover
+{
+    transform: scale(1.05);
+}
 .projects-list
 {
     padding: 50px;

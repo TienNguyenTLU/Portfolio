@@ -13,7 +13,7 @@ export default function Bio()
     ];
     return (
             <div className="bio">
-                <Image src="/logo.jpg" alt="Profile Picture" width={256} height={256} className="profile-pic"/>
+                <Image src="/Avt.jpg" alt="Profile Picture" width={256} height={256} className="profile-pic"/>
                 <h1>Nguyen Minh Tien</h1>
                 <p>A Software Engineer who has developed countless innovative solutions.</p>
                 <ul className="socialList">

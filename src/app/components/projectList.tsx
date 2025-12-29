@@ -4,15 +4,20 @@ import ProjectCard from './projectCard';
 export default function ProjectList() {
     const projects = [
         {
-            title: 'HighLands Coffee', image: '/p1.png',
-            description: 'A coffee shop website built with NextJS and Tailwind CSS.',
+            title: 'HighLands Coffee LandingPage', image: '/p1.png',
+            description: 'A landing page for HighLands Coffee, a coffee shop website built with NextJS and Tailwind CSS.',
             link: ' '
         },
         {
             title: 'Portfolio Website', image: '/portfolio.png',
             description: 'My personal portfolio website showcasing my skills and projects.',
-            link: ''
+            link: 'https://portfolio-six-sand-9bluk6kokv.vercel.app/'
         },
+        {
+            title: 'Weather App', image: '/LogoWeather.png',
+            description: 'A weather app built with React and NextJS.',
+            link: ''
+        }
     ]
     return (
         <div className='projects-list'>
