@@ -12,8 +12,8 @@ export default function Contact() {
         <div className="contact-info">
             <h2 className='contact-title'>Contact Information</h2>
             <p>Email: <span className="Email">tiencp1234hd@gmail.com</span></p>
-            <p>Phone: <span className="Phone">+84 123 456 789</span></p>
-            <p>Address: <span className="Address">123 Main St, Hanoi, Vietnam</span></p>
+            <p>Phone: <span className="Phone">+84 865 725 929</span></p>
+            <p>Address: <span className="Address">182 Dang Tien Dong,Dong Da, Hanoi, Vietnam</span></p>
             <ul className="socialnetworks">
                 {socialLinks.map((link, index) => (
                     <li key={index}>

@@ -1,6 +1,6 @@
 export default function MapEmbed() {
   // Thay YOUR_QUERY bằng địa chỉ hoặc toạ độ, ví dụ: "21.028511,105.804817"
-  const q = encodeURIComponent("21.028511,105.804817");
+  const q = encodeURIComponent("21.0135982,105.8192768");
   return (
     <div style={{ width: "40%", height: 400 }}>
       <iframe
