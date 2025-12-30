@@ -6,7 +6,7 @@ export default function ProjectList() {
         {
             title: 'HighLands Coffee LandingPage', image: '/p1.png',
             description: 'A landing page for HighLands Coffee, a coffee shop website built with NextJS and Tailwind CSS.',
-            link: ' '
+            link: 'https://high-lands-coffee.vercel.app/'
         },
         {
             title: 'Portfolio Website', image: '/portfolio.png',
@@ -14,10 +14,16 @@ export default function ProjectList() {
             link: 'https://portfolio-six-sand-9bluk6kokv.vercel.app/'
         },
         {
-            title: 'Weather App', image: '/LogoWeather.png',
-            description: 'A weather app built with React and NextJS.',
-            link: ''
+            title: 'Weather App', image: '/Logo.png',
+            description: 'A weather app built with React and NextJS. (In progress)',
+            link: 'https://github.com/TienNguyenTLU/Weather_App-'
+        },
+        {
+            title: 'Wonder Music', image: '/LogoMusic.png',
+            description: 'An Music Straeming App built with NextJS and Cloudinary.',
+            link: 'https://github.com/TienNguyenTLU/Wonder_Music_Frontend'
         }
+        
     ]
     return (
         <div className='projects-list'>
